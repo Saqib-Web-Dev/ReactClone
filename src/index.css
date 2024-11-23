@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.contact-us{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+.navbar {
+  z-index: 50; /* Example value */
+}
+.hamburger-menu {
+  z-index: 40; /* Example value */
+}
